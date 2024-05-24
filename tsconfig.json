@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",           // Directory to output the compiled JavaScript files
+    "module": "commonjs",         // Module code generation
+    "target": "es6",              // Target ECMAScript version
+    "jsx": "react",               // Support JSX in .tsx files
+    "declaration": true,          // Generate .d.ts files
+    "sourceMap": true,             // Generate source maps
+    "esModuleInterop": true,                   // Add this line
+    "allowSyntheticDefaultImports": true       // Add this line
+  },
+  "include": ["src/**/*"],        // Include all TypeScript files in the src directory
+  "exclude": ["node_modules", "dist"]  // Exclude node_modules and dist directories
+}

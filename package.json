@@ -1,0 +1,31 @@
+{
+  "name": "@leeveel/test-npm",
+  "version": "1.0.11",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NefeliKokkini/test-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NefeliKokkini/test-npm/issues"
+  },
+  "homepage": "https://github.com/NefeliKokkini/test-npm#readme",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
